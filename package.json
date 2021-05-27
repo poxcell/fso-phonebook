@@ -1,11 +1,11 @@
 {
   "name": "phonebook_api",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon index.js",
     "build:ui": "rm -rf build && cd ../part2/phonebook && npm run build --prod && cp -r build ../../part3",
     "deploy": "git push heroku main",
